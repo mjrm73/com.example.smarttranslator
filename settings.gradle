@@ -1,2 +1,7 @@
-include ':app'
-rootProject.name = "com.example.smarttranslator"
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
